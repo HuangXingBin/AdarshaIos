@@ -32,7 +32,6 @@
 		9B66396B1C0F827C003E7A90 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6639621C0F827C003E7A90 /* Icon@2x.png */; };
 		9B66396C1C0F827C003E7A90 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6639631C0F827C003E7A90 /* iTunesArtwork.png */; };
 		9B66396D1C0F827C003E7A90 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6639641C0F827C003E7A90 /* iTunesArtwork@2x.png */; };
-		9B7339DD1C63BCFE00A33553 /* jiangkangyur.kdb in Resources */ = {isa = PBXBuildFile; fileRef = 9B7339DC1C63BCFE00A33553 /* jiangkangyur.kdb */; };
 		9B739EF61C3EC294005BB987 /* monlam1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B739EF51C3EC294005BB987 /* monlam1.ttf */; };
 		9B7B3CF41C00F153003DC74C /* icon-font-size-add.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B7B3CEE1C00F153003DC74C /* icon-font-size-add.png */; };
 		9B7B3CF51C00F153003DC74C /* icon-font-size-minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B7B3CEF1C00F153003DC74C /* icon-font-size-minus.png */; };
@@ -46,7 +45,6 @@
 		9BB108C21BA99C8800087046 /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BB108B01BA99C8800087046 /* ionicons.ttf */; };
 		9BB108C31BA99C8800087046 /* Material-Design-Iconic-Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BB108B11BA99C8800087046 /* Material-Design-Iconic-Font.ttf */; };
 		9BB108C41BA99C8800087046 /* zocial-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BB108B21BA99C8800087046 /* zocial-regular-webfont.ttf */; };
-		9BB606671C4785BA00417075 /* Orientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB606661C4785BA00417075 /* Orientation.m */; };
 		9BBB88FB1C3F65D20034FC80 /* monlam_uni_ouchan2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBB88FA1C3F65D20034FC80 /* monlam_uni_ouchan2.ttf */; };
 		9BBB89101C3F67520034FC80 /* monlam_sans_serifbold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBB89071C3F67510034FC80 /* monlam_sans_serifbold.ttf */; };
 		9BBB89111C3F67520034FC80 /* monlam_uni_dutsa1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBB89081C3F67510034FC80 /* monlam_uni_dutsa1.ttf */; };
@@ -65,6 +63,8 @@
 		9BFCF4991C22DCD50036BD13 /* bg-scripture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BFCF4981C22DCD50036BD13 /* bg-scripture.jpg */; };
 		9BFD99321C28376B00E54EAC /* icon-launch-screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BFD99311C28376B00E54EAC /* icon-launch-screen.png */; };
 		9BFD99341C2837DF00E54EAC /* icon-launch-screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BFD99331C2837DF00E54EAC /* icon-launch-screen2.png */; };
+		A31DE2B01D92DD0F002D5BBE /* Orientation.m in Sources */ = {isa = PBXBuildFile; fileRef = A31DE2AF1D92DD0F002D5BBE /* Orientation.m */; };
+		A31DE2B21D92DDC9002D5BBE /* jiangkangyur.kdb in Resources */ = {isa = PBXBuildFile; fileRef = A31DE2B11D92DDC9002D5BBE /* jiangkangyur.kdb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -185,7 +185,6 @@
 		9B6639621C0F827C003E7A90 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../assets/images/Icon@2x.png"; sourceTree = "<group>"; };
 		9B6639631C0F827C003E7A90 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = ../assets/images/iTunesArtwork.png; sourceTree = "<group>"; };
 		9B6639641C0F827C003E7A90 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@2x.png"; path = "../assets/images/iTunesArtwork@2x.png"; sourceTree = "<group>"; };
-		9B7339DC1C63BCFE00A33553 /* jiangkangyur.kdb */ = {isa = PBXFileReference; lastKnownFileType = file; name = jiangkangyur.kdb; path = ../jiangkangyur.kdb; sourceTree = "<group>"; };
 		9B739EF51C3EC294005BB987 /* monlam1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = monlam1.ttf; path = ../assets/fonts/monlam1.ttf; sourceTree = "<group>"; };
 		9B7B3CEE1C00F153003DC74C /* icon-font-size-add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-font-size-add.png"; path = "../assets/images/icon-font-size-add.png"; sourceTree = "<group>"; };
 		9B7B3CEF1C00F153003DC74C /* icon-font-size-minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-font-size-minus.png"; path = "../assets/images/icon-font-size-minus.png"; sourceTree = "<group>"; };
@@ -214,8 +213,6 @@
 		9BB108B01BA99C8800087046 /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ionicons.ttf; path = "../node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/ionicons.ttf"; sourceTree = "<group>"; };
 		9BB108B11BA99C8800087046 /* Material-Design-Iconic-Font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Material-Design-Iconic-Font.ttf"; path = "../node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/Material-Design-Iconic-Font.ttf"; sourceTree = "<group>"; };
 		9BB108B21BA99C8800087046 /* zocial-regular-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zocial-regular-webfont.ttf"; path = "../node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/zocial-regular-webfont.ttf"; sourceTree = "<group>"; };
-		9BB606651C4785BA00417075 /* Orientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Orientation.h; sourceTree = "<group>"; };
-		9BB606661C4785BA00417075 /* Orientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Orientation.m; sourceTree = "<group>"; };
 		9BBB88FA1C3F65D20034FC80 /* monlam_uni_ouchan2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = monlam_uni_ouchan2.ttf; path = ../assets/fonts/monlam_uni_ouchan2.ttf; sourceTree = "<group>"; };
 		9BBB89071C3F67510034FC80 /* monlam_sans_serifbold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = monlam_sans_serifbold.ttf; path = ../assets/fonts/monlam_sans_serifbold.ttf; sourceTree = "<group>"; };
 		9BBB89081C3F67510034FC80 /* monlam_uni_dutsa1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = monlam_uni_dutsa1.ttf; path = ../assets/fonts/monlam_uni_dutsa1.ttf; sourceTree = "<group>"; };
@@ -236,6 +233,9 @@
 		9BFCF4981C22DCD50036BD13 /* bg-scripture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "bg-scripture.jpg"; path = "../assets/images/bg-scripture.jpg"; sourceTree = "<group>"; };
 		9BFD99311C28376B00E54EAC /* icon-launch-screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-launch-screen.png"; path = "../assets/images/icon-launch-screen.png"; sourceTree = "<group>"; };
 		9BFD99331C2837DF00E54EAC /* icon-launch-screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-launch-screen2.png"; path = "../assets/images/icon-launch-screen2.png"; sourceTree = "<group>"; };
+		A31DE2AE1D92DD0F002D5BBE /* Orientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Orientation.h; path = ../iOS/RCTOrientation/Orientation.h; sourceTree = "<group>"; };
+		A31DE2AF1D92DD0F002D5BBE /* Orientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Orientation.m; path = ../iOS/RCTOrientation/Orientation.m; sourceTree = "<group>"; };
+		A31DE2B11D92DDC9002D5BBE /* jiangkangyur.kdb */ = {isa = PBXFileReference; lastKnownFileType = file; name = jiangkangyur.kdb; path = ../jiangkangyur.kdb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -343,13 +343,13 @@
 		13B07FAE1A68108700A75B9A /* AdarshaIos */ = {
 			isa = PBXGroup;
 			children = (
+				A31DE2B11D92DDC9002D5BBE /* jiangkangyur.kdb */,
 				9BD6EDB21C33D4C90037E33F /* kfs_ios.h */,
 				9BD6EDB31C33D4C90037E33F /* kfs_ios.m */,
 				9BD6EDB41C33D4C90037E33F /* kfs_rct.h */,
 				9BD6EDB51C33D4C90037E33F /* kfs_rct.m */,
 				9B948E061C439E4600FF6269 /* HexColors.h */,
 				9B948E071C439E4600FF6269 /* HexColors.m */,
-				9B7339DC1C63BCFE00A33553 /* jiangkangyur.kdb */,
 				9B66395C1C0F827C003E7A90 /* Icon-60.png */,
 				9B66395D1C0F827C003E7A90 /* Icon-72.png */,
 				9B66395E1C0F827C003E7A90 /* Icon-72@2x.png */,
@@ -486,8 +486,8 @@
 		9BB606641C4785BA00417075 /* RCTOrientation */ = {
 			isa = PBXGroup;
 			children = (
-				9BB606651C4785BA00417075 /* Orientation.h */,
-				9BB606661C4785BA00417075 /* Orientation.m */,
+				A31DE2AE1D92DD0F002D5BBE /* Orientation.h */,
+				A31DE2AF1D92DD0F002D5BBE /* Orientation.m */,
 			);
 			name = RCTOrientation;
 			path = "../node_modules/react-native-orientation/RCTOrientation";
@@ -708,6 +708,7 @@
 			files = (
 				9B6639671C0F827C003E7A90 /* Icon-72@2x.png in Resources */,
 				9B66396C1C0F827C003E7A90 /* iTunesArtwork.png in Resources */,
+				A31DE2B21D92DDC9002D5BBE /* jiangkangyur.kdb in Resources */,
 				9BBB89181C3F67520034FC80 /* monlam_uni_tiktong.ttf in Resources */,
 				9BBB89131C3F67520034FC80 /* monlam_uni_ouchan3.ttf in Resources */,
 				9B7B3CF81C00F153003DC74C /* icon-tibetan-wylie-switch.png in Resources */,
@@ -723,7 +724,6 @@
 				9BFD99341C2837DF00E54EAC /* icon-launch-screen2.png in Resources */,
 				9BFCF4771C21B5590036BD13 /* Images.xcassets in Resources */,
 				9BBB89111C3F67520034FC80 /* monlam_uni_dutsa1.ttf in Resources */,
-				9B7339DD1C63BCFE00A33553 /* jiangkangyur.kdb in Resources */,
 				9BFD99321C28376B00E54EAC /* icon-launch-screen.png in Resources */,
 				9BBB89161C3F67520034FC80 /* monlam_uni_paytsik.ttf in Resources */,
 				9BBB89151C3F67520034FC80 /* monlam_uni_ouchan5.ttf in Resources */,
@@ -766,7 +766,7 @@
 			files = (
 				9BD6EDB61C33D4C90037E33F /* kfs_ios.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				9BB606671C4785BA00417075 /* Orientation.m in Sources */,
+				A31DE2B01D92DD0F002D5BBE /* Orientation.m in Sources */,
 				9BD6EDB71C33D4C90037E33F /* kfs_rct.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				9B948E081C439E4600FF6269 /* HexColors.m in Sources */,
