@@ -39,7 +39,8 @@ function buildTocRows(res) {
 
   let parent;
 
-  tocRows = tocRows.filter(row => row.d <= 3);
+  // tocRows = tocRows.filter(row => row.d <= 3);
+  tocRows = tocRows.filter(row => row.d <= 2);
 
   _.each(tocRows, (row, index) => {
 

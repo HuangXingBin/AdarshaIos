@@ -15,5 +15,6 @@ export const styles = StyleSheet.create({
 
 export const stylesTabBar = {
   tintColor: '#ffffff',
-  barTintColor: '#1b8c90'
+  // barTintColor: '#1b8c90'
+  barTintColor: '#3e72df'
 };

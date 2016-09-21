@@ -1,6 +1,7 @@
 import {StyleSheet} from 'react-native';
 
-const DETAIL_VIEW_BACKGROUND_COLOR = 'rgba(27, 130, 134, 0.9)';
+// const DETAIL_VIEW_BACKGROUND_COLOR = 'rgba(27, 130, 134, 0.9)';
+const DETAIL_VIEW_BACKGROUND_COLOR = 'rgba(62, 114, 223, 0.9)';
 
 export const styles = StyleSheet.create({
   container: {

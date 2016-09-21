@@ -521,9 +521,9 @@ class DetailView extends Component {
         <TouchableHighlight onPress={this.goHome} style={styles.bottomButton} underlayColor={underlayColor}>
           <Icon name="ion|home" style={globalStyles.navIcon} size={values.navIconSize} color={fontColor} />
         </TouchableHighlight>
-        <TouchableHighlight onPress={this.showBiography} style={styles.bottomButton} underlayColor={underlayColor}>
+          {/*<TouchableHighlight onPress={this.showBiography} style={styles.bottomButton} underlayColor={underlayColor}>
           <Image style={{width: 16, height: 16}} source={require('image!icon-biography')} />
-        </TouchableHighlight>
+        </TouchableHighlight>*/}
         <TouchableHighlight onPress={this.openSideMenu} style={styles.bottomButton} underlayColor={underlayColor}>
           <Icon name="fontawesome|gear" style={globalStyles.navIcon} size={values.navIconSize} color={fontColor} />
         </TouchableHighlight>

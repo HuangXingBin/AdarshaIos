@@ -37,6 +37,7 @@ export const styles = StyleSheet.create({
     paddingTop: 7
   },
   uti: {
-    color: '#57867e'
+    // color: '#57867e'
+    color: '#3e72df'
   }
 });

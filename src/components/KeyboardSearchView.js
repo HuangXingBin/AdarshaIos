@@ -110,7 +110,7 @@ class KeyboardSearchView extends Component {
         <View style={{height: this.getScrollViewHeight()}}>
           <ScrollView automaticallyAdjustContentInsets={false}>
             <View style={{paddingTop: 14}}>
-              <TibetanText style={styles.heading}>Searching with Wildcards</TibetanText>
+                {/*<TibetanText style={styles.heading}>Searching with Wildcards</TibetanText>
               <TibetanText>You can use wildcard characters to search ADARSHA when you know the beginning and ending of a phrase but not the syllables in between. There are two wildcards: the period (.) and the asterisk (*).</TibetanText>
               <TibetanText>Use the period when you know the exact number of syllables you want to search for. Type “.” (period) to search for one syllable in between, “.2” (period-2) to search for two syllables in  between, “.3” (period-3) to search for three syllables in between, and so forth.</TibetanText>
               <TibetanText>For example, searching for རྫོགས.སངས (rdzogs.sangs) will return phrases such as:</TibetanText>
@@ -146,7 +146,7 @@ class KeyboardSearchView extends Component {
               </TibetanText>
               <TibetanText>ཡང་དག་རྫོགས་པའི་སངས་,</TibetanText>
               <TibetanText>ཡང་བལང་བར་བྱའོ། །སངས་,</TibetanText>
-              <TibetanText>ཡང་དེ་དག་ནི་སངས་, and so forth.</TibetanText>
+              <TibetanText>ཡང་དེ་དག་ནི་སངས་, and so forth.</TibetanText>*/}
             </View>
           </ScrollView>
         </View>

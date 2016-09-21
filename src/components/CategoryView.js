@@ -107,7 +107,7 @@ class CategoryView extends Component {
         <View style={styles.scriptureContainer}>
           <View style={styles.scriptureBody}>
             <Image style={styles.scriptureLogo} source={require('image!Icon-Small-50')} />
-            <TibetanText>འཇང་བཀའ་འགྱུར།</TibetanText>
+            <TibetanText>སྒྱུ་འཕྲུལ་ ཆོས་སྡེའི་ གླེགས་བམ་།</TibetanText>
           </View>
         </View>
       );
