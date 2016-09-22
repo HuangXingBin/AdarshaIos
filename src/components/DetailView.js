@@ -309,10 +309,21 @@ class DetailView extends Component {
 
     setLoadingMore(true);
 
-    let rows = await this.fetchNextRows();
+    // let rows = await this.fetchNextRows();
+      var rows = this.props.rows;
 
-    setDataSource(this.getDataSource(rows));
-    setLoadingMore(false);
+      try {
+          rows = await this.fetchNextRows();
+          setDataSource(this.getDataSource(rows));
+          setLoadingMore(false);
+      } catch (e) {
+          setLoadingMore(false);
+      }
+
+    //   console.log('bug定位', rows);
+    //
+    // setDataSource(this.getDataSource(rows));
+    // setLoadingMore(false);
   };
 
   setToolbarStatus = toolbarOn => {
@@ -582,7 +593,7 @@ class DetailView extends Component {
         props.onTouchEnd = this.handleTouchEnd;
         props.ref = scrollView => this._scrollView = scrollView;
 
-        return <ScrollView {...props} />;
+        return <ScrollView {...props} />; // TODO : 如果滚动到最后一篇,就会有bug
       },
       loadData: this.loadPrev
     };

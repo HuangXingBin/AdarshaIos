@@ -12,12 +12,16 @@ export default function loadNext(options) {
       options.q = '';
     }
 
+      console.log('start ksa next');
+
     ksa.next(options, (err, rows) => {
       if (err) {
         reject(err);
+          console.log('loadNext reject');
       }
       else {
         resolve(rows);
+          console.log('loadNext resolve', rows);
       }
     });
   });
