@@ -816,7 +816,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = Adarsha;
 				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adarsha.app/Adarsha";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guhyagarbha.app/Guhyagarbha";
 			};
 			name = Debug;
 		};
@@ -836,7 +836,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = Adarsha;
 				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adarsha.app/Adarsha";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guhyagarbha.app/Guhyagarbha";
 			};
 			name = Release;
 		};
