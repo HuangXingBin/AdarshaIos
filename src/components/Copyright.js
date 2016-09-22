@@ -14,10 +14,10 @@ class Biography extends Component {
         <ScrollView automaticallyAdjustContentInsets={false}>
           <View style={styles.container}>
 
-            <TibetanText style={[styles.title, styles.center]}>ADARSHA</TibetanText>
-            <TibetanText style={styles.center}>Reflecting Ancient Texts in New Ways</TibetanText>
+            <TibetanText style={[styles.title, styles.center]}>Guhyagarbha</TibetanText>
+            <TibetanText style={styles.center}>佐智堪布</TibetanText>
 
-            <TibetanText style={styles.center}>- Brief Introduction -</TibetanText>
+              {/*<TibetanText style={styles.center}>- Brief Introduction -</TibetanText>
 
             <TibetanText style={styles.p}>1. ADARSHA is an app that lets you read and conduct searches of ancient documents in a digital format. There are three main categories of texts: (a) Kangyur (the words of the Buddha translated into Tibetan); (b) Tengyur (commentaries by Indian scholars translated into Tibetan); and (c) Tibetan Buddhist scriptures.</TibetanText>
 
@@ -67,7 +67,7 @@ class Biography extends Component {
 
             <TibetanText style={styles.center}>Copyright (C) 2016</TibetanText>
 
-            <TibetanText onPress={() => LinkingIOS.openURL(sourceCodeLink)} style={styles.link}>{sourceCodeLink}</TibetanText>
+            <TibetanText onPress={() => LinkingIOS.openURL(sourceCodeLink)} style={styles.link}>{sourceCodeLink}</TibetanText>*/}
 
           </View>
         </ScrollView>
