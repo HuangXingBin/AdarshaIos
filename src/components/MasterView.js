@@ -65,11 +65,11 @@ class MasterView extends Component {
             {/*<TabBarIOS.Item title={'Advance Search'} icon={require('image!ion-social-buffer')} accessibilityLabel="Advance Search"
             selected={'advanceSearch' === selectedTab} onPress={this.onTabPress.bind(this, 'advanceSearch')}>
             {this.renderAdvance()}
-          </TabBarIOS.Item>
+          </TabBarIOS.Item>*/}
           <TabBarIOS.Item title={'Copyright'} icon={require('image!ion-information-circled')} accessibilityLabel="Copyright"
             selected={'copyright' === selectedTab} onPress={this.onTabPress.bind(this, 'copyright')}>
             <Copyright />
-          </TabBarIOS.Item>*/}
+          </TabBarIOS.Item>
         </TabBarIOS>
       </View>
     );
