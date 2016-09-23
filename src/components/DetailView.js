@@ -160,15 +160,35 @@ class DetailView extends Component {
     }
     this._rows = rows || [];
 
-    let newRows = await this.fetchNextRows();
-    let dataSource = this.getDataSource(newRows, append);
+      console.log('_rows', this._rows);
+      console.log('rows', rows);
 
-    let assignedUti = _.get(_.first(this._rows), 'uti');
-    if (assignedUti) {
-      setVisibleUti(assignedUti);
+      let newRows = [];
+
+      try {
+          newRows = await this.fetchNextRows(); //TODO
+      } catch (e) {
+          console.log('hehhe',e);
+      }
+          console.log('newRows', newRows);
+
+        let dataSource = newRows ? this.getDataSource(newRows, append) : this.getDataSource(newRows, append);
+
+      console.log('dataSource', dataSource);
+
+        let assignedUti = _.get(_.first(this._rows), 'uti');
+        if (assignedUti) {
+          setVisibleUti(assignedUti);
+        }
+        this.props.setDataSource(dataSource);
+
+
+    try {
+      await this.fetchTitle();
+    } catch (e) {
+        console.log(e);
     }
-    this.props.setDataSource(dataSource);
-    await this.fetchTitle();
+
 
     setLoading(false);
   };
@@ -318,6 +338,7 @@ class DetailView extends Component {
           setLoadingMore(false);
       } catch (e) {
           setLoadingMore(false);
+          console.log(e);
       }
 
     //   console.log('bug定位', rows);
